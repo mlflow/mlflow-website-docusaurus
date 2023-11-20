@@ -36,7 +36,8 @@ jobs:
           cd docs
           make rsthtml
           popd
-          cp -r /tmp/mlflow/docs/build/html/* website/static/docs
+          rm -rf website/static/docs
+          cp -r /tmp/mlflow/docs/build/html website/static/docs
       - name: Install dependencies
         working-directory: website
         run: npm ci

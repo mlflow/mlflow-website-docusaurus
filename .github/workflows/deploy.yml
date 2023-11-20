@@ -16,11 +16,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: 3.8
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          # cache: npm
-
+      - name: Build docs
+        env:
+          PIP_EXTRA_INDEX_URL: https://download.pytorch.org/whl/cpu
+        run: |
+          git clone --depth 1 https://github.com/mlflow/mlflow /tmp/mlflow
+          pushd /tmp/mlflow
+          pip install '.[gateway]'
+          pip install -r requirements/doc-requirements.txt
+          cd docs
+          make rsthtml
+          popd
+          cp -r /tmp/mlflow/docs/build/html/* website/static/docs
       - name: Install dependencies
         working-directory: website
         run: npm ci

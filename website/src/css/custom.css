@@ -47,6 +47,10 @@
   --ifm-color-primary-lightest: #96e1f5;
 }
 
+.card {
+  border: 1px solid var(--ifm-color-primary-darkest);
+}
+
 /* GitHub logo */
 .header-github-link:hover {
   opacity: 0.6;

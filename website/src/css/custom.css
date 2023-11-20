@@ -38,13 +38,13 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } */
 [data-theme='dark'] {
-  --ifm-color-primary: #25afc1;
-  --ifm-color-primary-dark: #219eae;
-  --ifm-color-primary-darker: #1f95a4;
-  --ifm-color-primary-darkest: #1a7b87;
-  --ifm-color-primary-light: #29c1d4;
-  --ifm-color-primary-lighter: #31c4d8;
-  --ifm-color-primary-lightest: #4ecddd;
+  --ifm-color-primary: #43c9ed;
+  --ifm-color-primary-dark: #27c1ea;
+  --ifm-color-primary-darker: #19bde9;
+  --ifm-color-primary-darkest: #139dc2;
+  --ifm-color-primary-light: #5fd1f0;
+  --ifm-color-primary-lighter: #6dd5f1;
+  --ifm-color-primary-lightest: #96e1f5;
 }
 
 /* GitHub logo */

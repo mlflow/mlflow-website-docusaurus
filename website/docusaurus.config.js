@@ -16,7 +16,8 @@ const config = {
   url: "https://your-docusaurus-site.example.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/mlflow-website-docusaurus/",
+  // baseUrl: "/mlflow-website-docusaurus/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -39,13 +40,13 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: "./sidebars.js",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
+        // docs: {
+        //   sidebarPath: "./sidebars.js",
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        // },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -108,8 +109,8 @@ const config = {
           { to: "/blog", label: "Blog", position: "right" },
           { to: "/releases", label: "Releases", position: "right" },
           {
-            href: "https://mlflow.org/docs/latest/index.html",
             label: "Docs",
+            to: "pathname:///docs/index.html",
             position: "right",
           },
           {
@@ -137,7 +138,8 @@ const config = {
             items: [
               {
                 label: "Docs",
-                to: "https://mlflow.org/docs/latest/index.html",
+                // https://docusaurus.io/docs/advanced/routing#escaping-from-spa-redirects
+                to: "pathname:///docs/index.html",
               },
             ],
           },

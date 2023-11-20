@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases</id>
+    <id>https://your-docusaurus-site.example.com/releases</id>
     <title>MLflow Blog</title>
     <updated>2023-12-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases"/>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/releases"/>
     <subtitle>MLflow Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/mlflow-website-docusaurus/img/mlflow-favicon.ico</icon>
+    <icon>https://your-docusaurus-site.example.com/img/mlflow-favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[MLflow 2.8.1]]></title>
-        <id>https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases/v2.8.1</id>
-        <link href="https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases/v2.8.1"/>
+        <id>https://your-docusaurus-site.example.com/releases/v2.8.1</id>
+        <link href="https://your-docusaurus-site.example.com/releases/v2.8.1"/>
         <updated>2023-12-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[MLflow 2.8.1 is a patch release, containing some critical bug fixes and an update to our continued work on reworking our docs.]]></summary>
         <content type="html"><![CDATA[<p>MLflow 2.8.1 is a patch release, containing some critical bug fixes and an update to our continued work on reworking our docs.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notable-details">Notable details:<a href="https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases/v2.8.1#notable-details" class="hash-link" aria-label="Direct link to Notable details:" title="Direct link to Notable details:">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notable-details">Notable details:<a href="https://your-docusaurus-site.example.com/releases/v2.8.1#notable-details" class="hash-link" aria-label="Direct link to Notable details:" title="Direct link to Notable details:">​</a></h2>
 <p>The API mlflow.llm.log_predictions is being marked as deprecated, as its functionality has been incorporated into mlflow.log_table. This API will be removed in the 2.9.0 release. (#10414, @dbczumar)
 Bug fixes:</p>
 <ul>
@@ -30,7 +30,7 @@ Bug fixes:</p>
 <li>[Models] Correct the prompt template generation logic within the Prompt Engineering UI so that the prompts can be used in the Python API (#10341, @daniellok-db)</li>
 <li>[Models] Fix an issue in the SHAP model explainability functionality within mlflow.shap.log_explanation so that duplicate or conflicting dependencies are not registered when logging (#10305, @BenWilson2)</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="documentation-updates">Documentation updates:<a href="https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases/v2.8.1#documentation-updates" class="hash-link" aria-label="Direct link to Documentation updates:" title="Direct link to Documentation updates:">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="documentation-updates">Documentation updates:<a href="https://your-docusaurus-site.example.com/releases/v2.8.1#documentation-updates" class="hash-link" aria-label="Direct link to Documentation updates:" title="Direct link to Documentation updates:">​</a></h2>
 <ul>
 <li>[Docs] Add MLflow Tracking Quickstart (#10285, @BenWilson2)</li>
 <li>[Docs] Add tracking server configuration guide (#10241, @chenmoneygithub)</li>
@@ -45,12 +45,12 @@ For a comprehensive list of changes, see the release change log, and check out t
     </entry>
     <entry>
         <title type="html"><![CDATA[MLflow 2.8.0]]></title>
-        <id>https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases/v2.8.0</id>
-        <link href="https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases/v2.8.0"/>
+        <id>https://your-docusaurus-site.example.com/releases/v2.8.0</id>
+        <link href="https://your-docusaurus-site.example.com/releases/v2.8.0"/>
         <updated>2023-11-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[MLflow 2.8.0 is a patch release, containing some critical bug fixes and an update to our continued work on reworking our docs.]]></summary>
         <content type="html"><![CDATA[<p>MLflow 2.8.0 is a patch release, containing some critical bug fixes and an update to our continued work on reworking our docs.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notable-details">Notable details:<a href="https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases/v2.8.0#notable-details" class="hash-link" aria-label="Direct link to Notable details:" title="Direct link to Notable details:">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notable-details">Notable details:<a href="https://your-docusaurus-site.example.com/releases/v2.8.0#notable-details" class="hash-link" aria-label="Direct link to Notable details:" title="Direct link to Notable details:">​</a></h2>
 <p>The API mlflow.llm.log_predictions is being marked as deprecated, as its functionality has been incorporated into mlflow.log_table. This API will be removed in the 2.9.0 release. (#10414, @dbczumar)
 Bug fixes:</p>
 <ul>
@@ -66,7 +66,7 @@ Bug fixes:</p>
 <li>[Models] Correct the prompt template generation logic within the Prompt Engineering UI so that the prompts can be used in the Python API (#10341, @daniellok-db)</li>
 <li>[Models] Fix an issue in the SHAP model explainability functionality within mlflow.shap.log_explanation so that duplicate or conflicting dependencies are not registered when logging (#10305, @BenWilson2)</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="documentation-updates">Documentation updates:<a href="https://your-docusaurus-site.example.com/mlflow-website-docusaurus/releases/v2.8.0#documentation-updates" class="hash-link" aria-label="Direct link to Documentation updates:" title="Direct link to Documentation updates:">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="documentation-updates">Documentation updates:<a href="https://your-docusaurus-site.example.com/releases/v2.8.0#documentation-updates" class="hash-link" aria-label="Direct link to Documentation updates:" title="Direct link to Documentation updates:">​</a></h2>
 <ul>
 <li>[Docs] Add MLflow Tracking Quickstart (#10285, @BenWilson2)</li>
 <li>[Docs] Add tracking server configuration guide (#10241, @chenmoneygithub)</li>
